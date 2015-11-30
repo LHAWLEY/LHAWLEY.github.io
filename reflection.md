@@ -1,4 +1,4 @@
-<a href="LHAWLEY.github.io"></a>
+LHAWLEY.github.io
 
 1. What did you learn about CSS padding, borders, and margin by doing this challenge?
 
