@@ -1,0 +1,49 @@
+html {
+  background-color: #A8ABB0;
+  display: inline-block;
+}
+
+.social {
+  text-align: right;
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #FFFFFF;
+}
+
+h4 {
+  text-align: left;
+}
+
+.answers {
+  text-align: justify;
+}
+
+#blog-head {
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+.content {
+  margin-left: 200px;
+  border: 0px;
+  padding-left: 300px;
+  padding-right: 300px;
+  display: inline-block;
+}
+
+aside {
+  width: 200px;
+  float: left;
+}

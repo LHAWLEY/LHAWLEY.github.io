@@ -1,0 +1,72 @@
+html {
+  background-color: #A8ABB0;
+  display: inline-block;
+}
+
+header {
+  font-size: 50px;
+  text-align: center;
+  display: inline;
+  margin: 0em;
+}
+
+.personal {
+  font-size: 20px;
+  text-align: right;
+  margin: 0px;
+  padding: 0px
+}
+
+.social {
+  text-align: right;
+}
+
+.post {
+  text-align: center;
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #FFFFFF;
+}
+
+h4 {
+  text-align: left;
+}
+
+.answers {
+  text-align: justify;
+}
+
+.title {
+  margin: 0em;
+  background-color: #D7D1DA;
+}
+#blog-head {
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+.content {
+  margin-left: 200px;
+  border: 0px;
+  padding-left: 300px;
+  padding-right: 300px;
+  display: inline-block;
+}
+
+aside {
+  width: 200px;
+  float: left;
+
+}
