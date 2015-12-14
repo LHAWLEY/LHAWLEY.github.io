@@ -21,6 +21,11 @@ header {
   text-align: right;
 }
 
+.social img {
+  height: 30px;
+  width: 30px;
+}
+
 .post {
   text-align: center;
 }
