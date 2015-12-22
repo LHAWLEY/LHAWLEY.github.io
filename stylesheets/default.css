@@ -69,7 +69,11 @@ h2 {
   text-align: justify;
 }
 
+.buttons {
+  text-align: center;
+}
 /*aside {
   width: 200px;
   float: left;
 }
+
