@@ -1,6 +1,6 @@
 html {
   background-color: #A8ABB0;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 header {
@@ -63,15 +63,13 @@ h2 {
 }
 
 .content {
-  margin-left: 200px;
-  border: 0px;
-  padding-left: 300px;
-  padding-right: 300px;
-  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  text-align: justify;
 }
 
-aside {
+/*aside {
   width: 200px;
   float: left;
-
 }
