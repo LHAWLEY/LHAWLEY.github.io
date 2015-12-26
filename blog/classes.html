@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
-  <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/blog.css">
+  <title>Week 5</title>
+  <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
 </head>
 <main>
   <h1>DBC Week 6</h1>
@@ -11,85 +12,73 @@
   <h4>December 20, 2015</h4>
 
   <section>
-    <p>Some definitions to keep in mind as we move through this blog:
+    <p>Some definitions to keep in mind as we move through this blog post:</p>
 
-      Class:  A Class is an object much like everything in Ruby.  However, a class has the ability to create new objects or instances of the class object.
+      <p>Class:  A class is an object much like everything in Ruby.   However, a class has the ability to create new objects or instances of the class object.</p>
 
       Example Class:
-        class Dog
+        <pre><code>
+          class Boat
 
-        end
+          end
+        </code></pre>
 
-      Instance Variable:  An instance variable is a variable that is defined in a class.  An instance variable starts with an @ symbol.  Instance variables can be used in methods with in a specific class.  This is different from a local variable which is a variable that is housed inside of a method and can only be used in that methond.  An instance variable is a variable that is defined in a class.
+      <p>Instance Variable:  An instance variable is a variable that is defined in a class.  An instance variable starts with an @ symbol.  Instance variables can be used to share information between in methods within a specific class.  This is different from a local variable which is a variable that is housed inside of a method and can only be used in that method.</p>
 
       Example Instance Variable:
-        @name = name
+        <pre><code>
+          @color
+        </code></pre>
 
-      Instance Method:
+      <p>Instance Method:  An instance method is a method that is created within a class.  Instance methods can be used on instances of a  class only.</p>
 
       Example Instance Method:
 
-      def name
-        @name
-
+      <code><pre>
+      def horn
+        return  "toot, toot"
       end
+      </code></pre>
     </p>
-    <p>Why do we create a class?
-      You want to create a class when you want methods to work on specific objects.  By creating a class you can add specific methods to that class and those methods can be used on only those class objects.
-    </p>
+    <p>Why do we create a class?</p>
+      <p>You want to create a class when you want methods to work on specific objects.  By creating a class you can add specific methods to that class and those methods can be used on only those class objects.</p>
 
-    <p>What goes into a class?
-      Classes contain instance variables, instance methods and classe variables.
-    </p>
+    <p>What goes into a class?</p>
+      <p>Classes contain instance variables, instance methods and class variables.</p>
 
-    <p>Example of a Class
-      class Dog
+    <p>Example of a Boat class
 
-        def initialize(name)
-          @name = name
+      <pre><code>
+      class Boat
+
+      attr_accessor :color, :length, :sails
+
+        def initialize(color, length, sails)
+          @color = color
+          @length = length
+          @sails = sails
         end
 
-        def name
-          @name
+        def sailboat
+          return 'My boat is #{@color}, #{@length} feet with #{@sails} sail(s)'
         end
 
-        def bark
-          "woof"
+        def horn
+          return "toot, toot"
         end
-
       end
+
+      boat = Boat.new('white', 50, 2)
+      p boat.sailboat => 'My boat is white, 50 feet with 2 sail(s)'
+      p boat.horn  => 'toot, toot'
+    </code></pre>
     </p>
 
-    <p>
+    <p>Within the Boat class we can give our boat a color a length and a number of sails we can also give our boat a horn.
     </p>
 
     <p>
     </p>
   </section>
 </main>
-  <!-- <section>
-    <nav>
-    <img src ="linktofacebookimage">
-      <a href="https://www.facebook.com/leeanne.hawley.1"></a>
-    <img src ="linktotwitterimage">
-      <a href="linktotwitter"></a>
-    <img src ="linktolinkedinimage">
-      <a href="https://www.linkedin.com/in/leeannehawley"></a>
-    <img src ="linktoinstagram">
-     <a href="linktoinstagram"></a>
-   </nav>
-  </section> -->
-  <!-- <aside>
-    <nav>
-      <ul>
-      <li>Title (Link for blog 2)</li>
-      <li>Title (Link for blog 3)</li>
-      <li>Title (Link for blog 4)</li>
-      <li>Title (Link for blog 5)</li>
-      <li>Title (Link for blog 6)</li>
-      <li>Title (Link for blog 7)</li>
-      </ul>
-    </section>
-  </aside> -->
-    <footer>Footer</footer>
- </html>
+</html>
