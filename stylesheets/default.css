@@ -1,5 +1,5 @@
 html {
-  background-color: #A8ABB0;
+  background-color: #CEF6F5;
   /*display: inline-block;*/
 }
 
@@ -10,12 +10,102 @@ header {
   margin: 0em;
 }
 
-.personal {
-  font-size: 20px;
-  text-align: right;
-  margin: 0px;
-  padding: 0px
+a:link {
+  color: #6E6E6E;
 }
+
+.title {
+  margin: 0em;
+  font-family: Georgia, sans-serif;
+  font-style: italic;
+  color: #848484;
+}
+
+.content {
+  margin-top: 30px;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 25px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+ float: left;
+}
+
+li a {
+  display: block;
+  color: #6E6E6E;
+  text-align: center;
+  padding: 15px;
+  margin-left: 260px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Georgia, sans-serif;
+  font-style: italic;
+}
+
+#headshot {
+  text-align: center;
+  margin-top: 60px;
+}
+
+#headshot img {
+  width: 150px;
+}
+
+/*Blog Page*/
+.post {
+  margin: 40px;
+  position: relative;
+  padding-top:6px;
+  float:right;
+}
+
+#blog-head {
+  text-align: center;
+}
+
+.blog-content {
+  text-align: justify;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+/*Projects*/
+td a {
+  text-decoration: none;
+}
+/*li+li {
+  border-left: 1px solid #6E6E6E;
+}*/
+
+/*About Me Page*/
+.me-content {
+  text-align: justify;
+  font-size: 20px;
+  font-family: Georgia, sans-serif;
+  font-style: italic;
+}
+
+.me {
+  font-size: 15px;
+  color: #6E6E6E;
+  margin-top: 30px;
+}
+
+.me p {
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 130px;
+}
+
+/*Contact*/
 
 .social {
   text-align: right;
@@ -26,55 +116,11 @@ header {
   width: 30px;
 }
 
-.post {
-  text-align: center;
+.personal a {
+  text-decoration: none;
 }
 
-a:link {
-  color: #000000;
-}
-
-a:visited {
-  color: #FFFFFF;
-}
-
-h4 {
-  text-align: left;
-}
-
-.answers {
-  text-align: justify;
-}
-
-.title {
-  margin: 0em;
-  background-color: #D7D1DA;
-}
-#blog-head {
-  text-align: center;
-}
-
-h1 {
-  font-size: 30px;
-}
-
-h2 {
+.personal {
+  text-align: right;
   font-size: 15px;
 }
-
-.content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  text-align: justify;
-}
-
-.buttons {
-  text-align: center;
-}
-
-/*aside {
-  width: 200px;
-  float: left;
-}
-

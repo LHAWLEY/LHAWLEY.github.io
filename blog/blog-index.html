@@ -1,64 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Blog</title>
-    <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/blog.css">
-    <style>
-  html, body {
-    background-color: black;
-  }
-    </style>
+    <title> Blog </title>
+    <link rel = "stylesheet" type = "text/css" href = "../stylesheets/default.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css"> -->
+    <header>
+    <p class="title">Technical Blog</p>
+    </header>
   </head>
   <body>
-    <section class="social">
+    <section class = "post">
       <nav>
-       <img src= "imgs/facebooklogo.jpg"><a href="https://www.facebook.com/leeanne.hawley.1"></a>
-       <img src= "../week-3/geicoimg.gif"><a href="linktotwitter"></a>
-       <img src= "../week-3/geicoimg.gif"><a href="https://www.linkedin.com/in/leeannehawley"></a>
-       <img src= "../week-3/geicoimg.gif"><a href="linktoinstagram"></a>
-       <img src= "../week-3/geicoimg.gif"><a href="https://github.com/LHAWLEY"></a>
-      </nav>
-    </section>
-    <section class="post">
-<aside>
       <table>
         <tr>
-          <td><a href= "http://LHAWLEY.github.io/blog/git.html">Blog Post 1</a></td>
+          <td><a href = "git.html"> Version Control </a></td>
         </tr>
         <tr>
-          <td><a href= "http://LHAWLEY.github.io/blog/css-concepts.html">Blog Post 2</a></td>
+          <td><a href = "css-concepts.html"> CSS Concepts </a></td>
         </tr>
         <tr>
-          <td><a href= "http://LHAWLEY.github.io/blog/arrays-hashes.html">Blog Post 3</a></td>
+          <td><a href = "arrays-hashes.html"> Arrays and Hashes </a></td>
         </tr>
         <tr>
-          <td><a href= "linktoblogpost">Blog Post 4</a></td>
+          <td><a href = "enumerable-methods.html"> Enumerable Methods </a></td>
         </tr>
         <tr>
-          <td><a href= "linktoblogpost">Blog Post 5</a></td>
+          <td><a href = "classes.html"> Ruby Classes </a></td>
         </tr>
         <tr>
-          <td><a href= "linktoblogpost">Blog Post 6</a></td>
+          <td><a href = "javascript.html"> Looping: Ruby vs. JavaScript </a></td>
         </tr>
         <tr>
-          <td><a href= "linktoblogpost">Blog Post 7</a></td>
+          <td><a href = "tech.html"> Recursion </a></td>
         </tr>
       </table>
-      </aside>
-<main id="blog-head">
-  <h1>CSS Concepts</h1>
-  <h2>November 30, 2015</h2>
+      </nav>
+<main id = "blog-head">
+  <h1> Recursion </h1>
+  <h3> January 11, 2016 </h3>
 </main>
-<section class="content">
-  <h4>What is the difference between margin, border, and padding?</h4>
-  <p class="answers">Margins are outside of the boarder and allow you to control the space between the boarders of boxes that are next to one another.
-
-Boarders separate the edge of one box from another.
-
-Padding is the space between the boarder of a box and any content that is in a box.  By adding padding you can increase readability.
-
-So padding goes around content, inside of a boarder, inside of margins.</p>
+<section class ="blog-content">
+  <p>Recursion is the idea that a function or method can call itself, passing in a different argument each time until it reaches a certain threshold. Recursion is often used to replace loops in a method.</p>
+  <p>Recursion breaks down a problem into smaller pieces. In computer science this algorithm is known as divide and conquer.</p>
+  <p>When using recusion it is important to add a base case that tells your method when to terminate.</p>
 </section>
   </body>
 </html>
