@@ -27,22 +27,27 @@ a:link {
   font-family: Helvetica;
 }
 
-ul {
-    list-style-type: none;
-    margin-top: 25px;
-    padding: 0;
-    overflow: hidden;
+nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  height: 70px;
 }
 
-li {
- float: left;
+nav ul li{
+  list-style-type: none;
+  display: inline;
+  float: left;
 }
-
-li a {
-  display: block;
+nav a {
+  /*display: inline-block;*/
+  /*padding: 14px 16px;*/
+  text-decoration: none;
   color: #6E6E6E;
   text-align: center;
-  padding: 15px;
+  padding: 30px;
   margin-left: 260px;
   text-decoration: none;
   font-size: 20px;
