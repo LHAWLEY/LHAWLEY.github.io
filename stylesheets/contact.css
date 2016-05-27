@@ -1,13 +1,13 @@
-/*.personal a {
+.personal a {
   text-decoration: none;
 }
 
-.personal {
-  text-align: right;
-  font-size: 15px;
-}*/
+.media_links a {
+  display: inline-block;
+}
 
 .media_links a img{
   height: 30px;
   width: 30px;
+
 }
