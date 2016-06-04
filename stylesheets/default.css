@@ -7,7 +7,6 @@ html body {
   text-align: center;
   font-family: Georgia, sans-serif;
   color: #6E6E6E;
-  /*overflow: hidden;*/
 }
 
 .title {
@@ -26,7 +25,6 @@ nav {
 
 nav ul {
   font-size: 16px;
-  /*overflow: hidden;*/
   background-color: #3399ff;
   margin: 0;
 }
@@ -49,6 +47,12 @@ nav a {
 .content_container {
   color: #6E6E6E;
   margin-top: 60px;
+  min-height: 300px;
+}
+
+.content_container a {
+  text-decoration: none;
+ color: #3399ff;
 }
 
 .content {
@@ -85,9 +89,6 @@ nav a {
 
 footer {
   position: relative;
- /* right: 0;
-  bottom: 0;
-  left: 0;*/
   clear: both;
   text-align: center;
   font-size: 16px;
