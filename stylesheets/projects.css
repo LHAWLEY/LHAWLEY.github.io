@@ -1,0 +1,19 @@
+.projects {
+  margin: 0 auto;
+  height: 400px;
+  width:  400px;
+}
+
+.project {
+  /*background-color: yellow;*/
+  height: 200px;
+  width: 200px;
+}
+.project img {
+  height: 150px;
+  width: 250px;
+ /* filter: gray; /* IE6-9 */
+  /*filter: grayscale(1);  Microsoft Edge and Firefox 35+ */
+  /*-webkit-filter: grayscale(1);  Google Chrome, Safari 6+ & Opera 15+ */
+}
+
