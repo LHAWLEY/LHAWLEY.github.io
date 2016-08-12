@@ -2,75 +2,69 @@
 <html>
 <head>
   <meta charset="UTF-8">
-   <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
-   <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  <script src="https://use.fontawesome.com/66ec660a33.js"></script>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
 </head>
 <body>
-   <header>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../about.html">About Me</a></li>
-          <li><a href="../projects/index.html">Projects</a></li>
-          <li><a href="./blog-index.html">Blog</a></li>
-          <!-- <li><a href="../contact.html">Contact</a></li> -->
-        </ul>
-      </nav>
-    </header>
-    <aside>
+  <header>
+    <nav>
       <ul>
-        <li><a href="git.html" class='old_post'>Version Control</a></li>
-        <li><a href="css-concepts.html" class='old_post'>CSS Concepts</a></li>
-        <li><a href="enumerable-methods.html" class='old_post'>Enumerable Methods</a></li>
-        <li><a href="classes.html" class='old_post'>Ruby Classes</a></li>
-        <li><a href="javascript.html" class='old_post'>Looping: Ruby vs. JavaScript</a></li>
-        <li><a href="tech.html" class='old_post'>Recursion</a></li>
+        <li><a href='/index.html'>Projects</a></li>
+        <li><a href='/about.html'>About Me</a></li>
+        <li><a href='blog/blog-index.html'>Blog</a></li>
       </ul>
-    </aside>
-<main class='content_container'>
-  <h1>Arrays and Hashes</h1>
-  <h3>December 7, 2015</h3>
-  <section class='content'>
-    <p>Arrays and hashes are two different data structures in Ruby.
-    Arrays are structured in a list between [ ].
-     </br></br>Array's can contain numbers [1, 2, 3, 4];
-    strings ["this", "is", "an, "array"]; other arrays [[1, 2, 3],[4, 5, 6],[7, 8, 9]] ;and they can also be empty [ ].
-     </br></br>Each array element has an index number starting a [0] so that you easily referance a specific element or an array.
-    An example is: favorite_number [12, 6, 99, 24]
-    If I wanted to retrieve 6 I would say:
-    favorite_number[1]</br></br>A hash is like an array execept insead of having values that are associated with an index.  Hashes have key value pairs.
-     </br></br>Here is an example of a hash
+    </nav>
+  </header>
+  <aside>
+    <ul>
+      <li><a href="git.html" class='old_post'>Version Control</a></li>
+      <li><a href="css-concepts.html" class='old_post'>CSS Concepts</a></li>
+      <li><a href="enumerable-methods.html" class='old_post'>Enumerable Methods</a></li>
+      <li><a href="classes.html" class='old_post'>Ruby Classes</a></li>
+      <li><a href="javascript.html" class='old_post'>Looping: Ruby vs. JavaScript</a></li>
+      <li><a href="tech.html" class='old_post'>Recursion</a></li>
+    </ul>
+  </aside>
+  <main class='content_container'>
+    <h1>Arrays and Hashes</h1>
+    <h3>December 7, 2015</h3>
+    <section class='content'>
+      <p>Arrays and hashes are two different data structures in Ruby.<br><br>Arrays are structured in a list between [ ].</br></br>Array's can contain numbers [1, 2, 3, 4];strings ["this", "is", "an, "array"]; other arrays [[1, 2, 3],[4, 5, 6],[7, 8, 9]] ;and they can also be empty [ ].</br></br>Each array element has an index number starting a [0] so that you easily referance a specific element or an array.<br><br>
+      An example is: favorite_number [12, 6, 99, 24]<br><br>
+      If I wanted to retrieve 6 I would say:favorite_number[1]</br></br>A hash is like an array execept insead of having values that are associated with an index.  Hashes have key value pairs.
+      </br></br>Here is an example of a hash
       my_pets = {
       my_dog: "Sophia"
       my_cat: "Fluffy"
       my_bird: "Tweets"
-    }
-    </br></br>
-    Like an array you can retrieve the values of a hash.  If I wanted to retrieve my dog I would say my_pets[my_dog] to return the value that is associated with that key which would be "Sophia".
-    </p>
-  </section>
-</main>
-<footer>
-  <p class="personal">
-    <a href="mailto:hawleyleeanne@gmail.com">hawleyleeanne@gmail.com</a>
-  </p>
-  <nav class='media_links'>
-    <a href="https://www.facebook.com/leeanne.hawley.1">
-      <img src="../imgs/facebooklogo.jpg">
-    </a>
-    <a href="https://twitter.com/LeeAnneHawley">
-      <img src="../imgs/twitterlogo.png">
-    </a>
-    <a href="https://www.linkedin.com/in/leeannehawley">
-      <img src="../imgs/LinkedInlogo.png">
-    </a>
-    <a href="https://www.instagram.com/lhawley87/">
-      <img src="../imgs/instagramlogo.jpg">
-    </a>
-    <a href="https://github.com/LHAWLEY">
-      <img src="../imgs/githublogo.png">
-    </a>
-  </nav>
-</footer>
+      }
+      </br></br>Like an array you can retrieve the values of a hash.  If I wanted to retrieve my dog I would say my_pets[my_dog] to return the value that is associated with that key which would be "Sophia".</p>
+    </section>
+  </main>
+  <footer>
+    <section class='personal'>
+      <div class='info'>LeeAnne Hawley&nbsp;|&nbsp;</div>
+      <a class='info' href='mailto:hawleyleeanne@gmail.com'>hawleyleeanne@gmail.com &nbsp;</a>
+      <div class='info'>|&nbsp;603-845-6849</div>
+    </section>
+    <section class='media_links'>
+      <a href='https://www.facebook.com/leeanne.hawley.1'>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+      </a>
+      <a href='https://twitter.com/LeeAnneHawley'>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </a>
+      <a href='https://www.linkedin.com/in/leeannehawley'>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <!-- <a href='https://www.instagram.com/lhawley87/'>
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a> -->
+      <a href='https://github.com/LHAWLEY'>
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </a>
+    </section>
+  </footer>
 </body>
 </html>
