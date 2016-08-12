@@ -90,6 +90,7 @@ nav a:hover {
   padding-top: 20px;
   display: inline;
   float: left;
+  padding-bottom: 10px;
 }
 
 .media_links {
@@ -102,6 +103,7 @@ nav a:hover {
   display: inline-block;
   float: right;
   font-size: 20px;
+  padding-bottom: 10px;
 }
 
 .media_links i {
@@ -135,20 +137,20 @@ footer {
 .projects {
   width: 100%;
   padding-left: 38px;
+  padding-bottom: 40px;
 }
 
 .project {
-  background-color: #6E6E6E;
   height: 200px;
   width: 350px;
   margin: 20px;
   display: inline-block;
 }
 
-/*.project img {
-  height: 150px;
-  width: 250px;
-}*/
+.project img {
+  height: 200px;
+  width: 350px;
+}
 
 .project_section {
   float: left;
