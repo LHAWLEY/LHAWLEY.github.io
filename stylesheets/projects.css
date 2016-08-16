@@ -1,15 +1,26 @@
-/*.projects {
-  margin: 0 auto;
-  height: 400px;
-  width:  400px;
+.projects {
+  width: 100%;
+  padding-bottom: 40px;
 }
 
 .project {
-  height: 200px;
-  width: 200px;
+  width: 40%;
+  padding: 20px 0 20px 0;
+  display: inline-block;
 }
-.project img {
-  height: 150px;
-  width: 250px;
 
-}*/
+.project img {
+  height: 200px;
+  width: 350px;
+}
+
+.project_section_title {
+  float: left;
+  font-size: 30px;
+  padding: 0 5% 0 5%;
+  width: 90%;
+}
+
+.work {
+  padding-top: 20px;
+}

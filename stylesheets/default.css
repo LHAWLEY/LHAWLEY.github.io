@@ -1,9 +1,8 @@
 html body {
   background-color: white;
   margin: 0 auto;
-  height: 100%;
   width: 100%;
-  /*padding-bottom: 60px;*/
+  padding-bottom: 60px;
   font-size: 16px;
   text-align: center;
   font-family: Georgia, sans-serif;
@@ -25,6 +24,7 @@ nav {
 }
 
 nav ul {
+  width: 100%;
   font-size: 16px;
   background-color: #3399ff;
   margin: 0;
@@ -40,7 +40,7 @@ nav a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 16px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -64,22 +64,12 @@ nav a:hover {
 
 .content {
   text-align: justify;
-  width: 50%;
-  height: 50%;
+  width: 70%;
   margin: 0 auto;
 }
 
-#headshot{
-  text-align: center;
-  margin-top: 60px;
-}
 
-#headshot img {
-  width: 150px;
-  height: 160px;
-  border-radius: 100px
-}
-
+/*Footer Styles*/
 .personal a {
   text-decoration: none;
   display: inline-block;
@@ -114,46 +104,10 @@ nav a:hover {
 
 footer {
   border-top: 1px solid #6E6E6E;
-  margin: 0 52px 0 60px;
+  margin: 0 5% 0 5%;
+  width: 90%;
   clear: both;
   font-size: 16px;
   position: relative;
   bottom: 0;
-}
-
-.resume {
-  padding: 40px 0 40px 0;
-  border: hidden;
-}
-
-.resume_link {
-  /*text-decoration: none;*/
-  color: #6E6E6E;
-  display: inline-block;
-  width: 100%;
-  padding-top: 40px;
-}
-
-.projects {
-  width: 100%;
-  padding-left: 38px;
-  padding-bottom: 40px;
-}
-
-.project {
-  height: 200px;
-  width: 350px;
-  margin: 20px;
-  display: inline-block;
-}
-
-.project img {
-  height: 200px;
-  width: 350px;
-}
-
-.project_section {
-  float: left;
-  font-size: 30px;
-  padding: 40px 0 0 20px;
 }

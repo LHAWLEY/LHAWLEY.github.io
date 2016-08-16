@@ -1,0 +1,12 @@
+.resume {
+  width: 70%;
+  border: hidden;
+  padding: 0 0 40px 0;
+}
+
+.resume_link {
+  color: #6E6E6E;
+  display: inline-block;
+  width: 100%;
+  padding: 40px 0 40px 0;
+}
