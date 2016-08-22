@@ -111,3 +111,22 @@ footer {
   position: relative;
   bottom: 0;
 }
+
+/*Media Queries*/
+@media only screen and (max-width: 975px){
+  .media_links {
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 520px){
+  .personal * {
+    margin: 0 0 0 0;
+    padding-top: 20px;
+    display: inline;
+    float: none;
+    padding-bottom: 10px;
+  }
+}

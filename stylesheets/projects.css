@@ -24,3 +24,17 @@
 .work {
   padding-top: 20px;
 }
+
+@media only screen and (max-width: 975px){
+  .project {
+    width: 80%;
+    padding: 20px 0 0 0;
+    display: inline;
+  }
+  .project_section_title {
+    font-size: 30px;
+    padding: 0 5% 0 5%;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
