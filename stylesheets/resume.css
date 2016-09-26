@@ -1,7 +1,8 @@
 .resume {
-  width: 70%;
+  width: 74%;
   border: hidden;
   padding: 0 0 40px 0;
+  margin-left: 22%;
 }
 
 .resume_link {
@@ -11,21 +12,22 @@
   padding: 40px 0 40px 0;
 }
 
-/*.resume_container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
+.resume_container {
+  height: 100%;
+  width: 90%;
+  padding-bottom: 75%;
+  overflow: hidden;
+  position: relative;
 }
 
-.resume_container iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}*/
+iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: none;
+}
 
 /*@media only screen and (max-width: 975px){
   .resume {
