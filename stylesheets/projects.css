@@ -1,31 +1,22 @@
 .projects {
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
   padding-bottom: 40px;
 }
 
-.project {
-  width: 40%;
-  padding: 20px 0 20px 0;
-  display: inline-block;
+.project_section_title {
+  text-align: left;
+  font-weight: 300;
+  padding: 20px 0;
 }
 
 .project img {
+  display: inline-block;
   height: 200px;
-  width: 350px;
+  width: 400px;
 }
 
-.project_section_title {
-  float: left;
-  font-size: 30px;
-  padding: 0 5% 0 5%;
-  width: 90%;
-}
-
-.work {
-  padding-top: 20px;
-}
-
-@media only screen and (max-width: 975px){
+/*@media only screen and (max-width: 975px){
   .project {
     width: 80%;
     padding: 20px 0 0 0;
@@ -37,4 +28,4 @@
     width: 90%;
     margin: 0 auto;
   }
-}
+}*/
