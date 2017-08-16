@@ -10,9 +10,7 @@ body {
   color: #6E6E6E;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box }
 
 a {
   color: #6E6E6E;
@@ -27,6 +25,7 @@ ul { padding: 0 }
   margin: 0 auto;
 }
 
+/*Header*/
 .nameplate {
   float: left;
   margin: 15px 0;
@@ -57,7 +56,7 @@ nav a:last-child { padding-right: 0 }
 
 nav a:hover { color: #fff }
 
-/*Footer Styles*/
+/*Footer*/
 footer {
   position: relative;
   bottom: 0;
@@ -81,13 +80,7 @@ footer .container {
 }
 
 /*Mobile*/
-@media only screen and (max-width: 550px){
-  .container {
-    width: 100%;
-    margin: 0;
-    padding: 0 5px;
-  }
-
+@media only screen and (max-width: 525px){
   .nameplate {
     margin: 20px 0;
     font-size: 16px;
@@ -98,13 +91,10 @@ footer .container {
     padding: 20px 5px;
   }
 
-  footer .container {
-    padding: 20px 5px;
-    font-size: 12px;
-  }
   .contact_info {
     text-align: center;
   }
+
   .contact_info * {
     float: none;
   }
@@ -115,5 +105,19 @@ footer .container {
     font-size: 18px;
     padding: 10px 10px;
     text-align: center;
+  }
+}
+
+/*Tablet*/
+@media only screen and (max-width: 830px){
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0 5px;
+  }
+
+  footer {
+    padding: 20px 5px;
+    font-size: 12px;
   }
 }

@@ -17,11 +17,14 @@
   width: 400px;
 }
 
-/*Mobile*/
-@media only screen and (max-width: 550px){
+/*Tablet*/
+@media only screen and (max-width: 830px){
   .projects {
+    width: 100%;
+    max-width: 400px;
     display: block;
     padding-bottom: 0;
+    margin: 0 auto;
   }
 
   .project_section_title {
@@ -30,8 +33,9 @@
   }
 
   .project img {
+    width: 100%;
+    max-width: 400px;
     display: block;
     margin: 20px 0;
-    width: 100%;
   }
 }
