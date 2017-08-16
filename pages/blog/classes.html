@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="https://use.fontawesome.com/66ec660a33.js"></script>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href='/index.html'>Projects</a></li>
+        <li><a href='/about.html'>About Me</a></li>
+        <li><a href='blog/blog-index.html'>Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <aside>
+    <ul>
+      <li><a href="git.html" class='old_post'>Version Control</a></li>
+      <li><a href="css-concepts.html" class='old_post'>CSS Concepts</a></li>
+      <li><a href="arrays-hashes.html" class='old_post'>Arrays and Hashes</a></li>
+      <li><a href="enumerable-methods.html" class='old_post'>Enumerable Methods</a></li>
+      <li><a href="javascript.html" class='old_post'>Looping: Ruby vs. JavaScript</a></li>
+      <li><a href="tech.html" class='old_post'>Recursion</a></li>
+    </ul>
+  </aside>
+  <main class='content_container'>
+    <h1>What is in a Class?</h1>
+    <h3>December 20, 2015</h3>
+    <section class='content'>
+      <p>Some definitions to keep in mind as we move through this blog post:</p>
+      <p>Class:  A class is an object much like everything in Ruby.   However, a class has the ability to create new objects or instances of the class object.</p>
+
+      Example Class:
+        <pre><code>
+          class Boat
+
+          end
+        </code></pre>
+      <p>Instance Variable:  An instance variable is a variable that is defined in a class.  An instance variable starts with an @ symbol.  Instance variables can be used to share information between in methods within a specific class.  This is different from a local variable which is a variable that is housed inside of a method and can only be used in that method.</p>
+
+      Example Instance Variable:
+        <pre><code>
+          @color
+        </code></pre>
+      <p>Instance Method:  An instance method is a method that is created within a class.  Instance methods can be used on instances of a  class only.</p>
+
+      Example Instance Method:
+
+        <code><pre>
+        def horn
+          return  "toot, toot"
+        end
+        </code></pre>
+      <p>Why do we create a class?</p>
+      <p>You want to create a class when you want methods to work on specific objects.  By creating a class you can add specific methods to that class and those methods can be used on only those class objects.</p>
+
+      <p>What goes into a class?</p>
+      <p>Classes contain instance variables, instance methods and class variables.</p>
+
+      <p>Example of a Boat class
+
+        <pre><code>
+          class Boat
+
+          attr_accessor :color, :length, :sails
+
+            def initialize(color, length, sails)
+              @color = color
+              @length = length
+              @sails = sails
+            end
+
+            def sailboat
+              return 'My boat is #{@color}, #{@length} feet with #{@sails} sail(s)'
+            end
+
+            def horn
+              return "toot, toot"
+            end
+          end
+
+          boat = Boat.new('white', 50, 2)
+          p boat.sailboat => 'My boat is white, 50 feet with 2 sail(s)'
+          p boat.horn  => 'toot, toot'
+        </code></pre>
+      </p>
+
+      <p>Within the Boat class we can give our boat a color a length and a number of sails we can also give our boat a horn.</p>
+    </section>
+  </main>
+  <footer>
+    <section class='personal'>
+      <div class='info'>LeeAnne Hawley&nbsp;|&nbsp;</div>
+      <a class='info' href='mailto:hawleyleeanne@gmail.com'>hawleyleeanne@gmail.com &nbsp;</a>
+      <div class='info'>|&nbsp;603-845-6849</div>
+    </section>
+    <section class='media_links'>
+      <a href='https://www.facebook.com/leeanne.hawley.1'>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+      </a>
+      <a href='https://twitter.com/LeeAnneHawley'>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </a>
+      <a href='https://www.linkedin.com/in/leeannehawley'>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <!-- <a href='https://www.instagram.com/lhawley87/'>
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a> -->
+      <a href='https://github.com/LHAWLEY'>
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </a>
+    </section>
+  </footer>
+</body>
+</html>

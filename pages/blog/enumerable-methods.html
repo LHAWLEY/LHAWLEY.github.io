@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="https://use.fontawesome.com/66ec660a33.js"></script>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href='/index.html'>Projects</a></li>
+        <li><a href='/about.html'>About Me</a></li>
+        <li><a href='blog/blog-index.html'>Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <aside>
+    <ul>
+      <li><a href="git.html" class='old_post'>Version Control</a></li>
+      <li><a href="css-concepts.html" class='old_post'>CSS Concepts</a></li>
+      <li><a href="arrays-hashes.html" class='old_post'>Arrays and Hashes</a></li>
+      <li><a href="classes.html" class='old_post'>Ruby Classes</a></li>
+      <li><a href="javascript.html" class='old_post'>Looping: Ruby vs. JavaScript</a></li>
+      <li><a href="tech.html" class='old_post'>Recursion</a></li>
+    </ul>
+  </aside>
+  <main class='content_container'>
+    <h1>Enumerable Methods</h1>
+    <h3>December 14, 2015</h3>
+    <section class="content">
+      <p>Enumerable#map takes an array runs it through a block of code and returns a new array.</p>
+      <p>Ex: (1..6).map {|i| i + 2} => [3, 4, 5, 6, 7, 8]</p>
+      <p>Enumerable#group_by is a method that takes an array and returns a hash.  With the keys as the evaluated results of from the block and the values being the arrays of elements that correspond to the key.</p>
+      <p>Ex: (1..6).group_by {|i| i + 2} => {[0] 3, [1] 4, [2] 5, [3] 6, [4] 7, [5] 8]</p>
+      <p>Enumerable#cycle is a method that call on a block for each elemenr for a set number of times or for ever.</p>
+      <p>Ex: (1..6).cycle(2) {|x| puts x} => prints 1,2,3,4,5,6,1,2,3,4,5,6</p>
+    </section>
+  </main>
+  <footer>
+    <section class='personal'>
+      <div class='info'>LeeAnne Hawley&nbsp;|&nbsp;</div>
+      <a class='info' href='mailto:hawleyleeanne@gmail.com'>hawleyleeanne@gmail.com &nbsp;</a>
+      <div class='info'>|&nbsp;603-845-6849</div>
+    </section>
+    <section class='media_links'>
+      <a href='https://www.facebook.com/leeanne.hawley.1'>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+      </a>
+      <a href='https://twitter.com/LeeAnneHawley'>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </a>
+      <a href='https://www.linkedin.com/in/leeannehawley'>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <!-- <a href='https://www.instagram.com/lhawley87/'>
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a> -->
+      <a href='https://github.com/LHAWLEY'>
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </a>
+    </section>
+  </footer>
+</body>
+</html>
