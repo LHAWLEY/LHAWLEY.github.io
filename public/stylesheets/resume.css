@@ -17,10 +17,11 @@ iframe {
   border: none;
 }
 
-/*@media only screen and (max-width: 975px){
-  .resume {
-    width: 30%;
-    border: hidden;
-    padding: 0 0 40px 0;
-  }
-}*/
+/*Mobile*/
+@media only screen and (max-width: 550px){
+/*  #headshot img {
+    width: 200px;
+    height: 200px;
+  }*/
+}
+
