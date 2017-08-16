@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="../public/stylesheets/video.css">
   <link rel="stylesheet" type="text/css" href="../public/stylesheets/default.css">
-  <title>State Farm</title>
+  <title>Bluesheets</title>
 </head>
 <body>
   <header>
@@ -19,12 +19,31 @@
       </div>
     </nav>
   </header>
-  <section>
+    <section>
     <div class="container">
-      <video width="100%" controls muted>
+      <label class="instructions">Contact me for a password to view this content.</label>
+      <form class="pass">
+        <input type="password" class="pass" />
+        <input type="submit" value="Submit" />
+      </form>
+      <video class="video" width="100%" controls muted>
         <source src="../public/videos/bluesheets.webm">
       </video>
     </div>
+    <script>
+      // Because github owns the servers, implement a totally unsafe mock-password system
+      const PASSWORD = "cGFzcw==";
+
+      document.querySelector('.pass').onsubmit = function () {
+        const guess = document.querySelector('.pass input[type="password"]').value;
+
+        if (guess === atob(PASSWORD)) {
+          document.querySelector('video').style.display = 'block';
+          document.querySelector('.pass').style.display = 'none';
+          document.querySelector('label').style.display = 'none';
+        }
+      }
+    </script>
   </section>
   <footer>
     <div class="container">

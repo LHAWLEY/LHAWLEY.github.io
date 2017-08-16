@@ -1,1 +1,16 @@
-video { margin: 40px 0 }
+video {
+  margin: 40px 0;
+}
+
+.video {
+  display: none;
+}
+
+.instructions {
+  display: block;
+  padding: 40px 0 0 0;
+}
+
+.pass {
+  margin: 10px 0 20px 0;
+}
